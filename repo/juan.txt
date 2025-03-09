@@ -29,4 +29,41 @@ git mv archivo_viejo.txt archivo_nuevo.txt  //cambiar el nombre del archivo viej
 
 git commit -m "Renombrado archivo_viejo.txt a archivo_nuevo.txt" -a confirmar el cambio
 
+
+Hola mundo!
+
+git branch //nos muestra las ramas que hay
+git branch nombre-dev //crea la ramas
+
+
+git switch nombre-rama //nos mueve a la rama
+git branch -c rama-temporal //crea y nos mete
+git branch -d rama-temporal //borra
+git branch -m modificar-dev modificar-texto //cambiar nombre
+
+//esta es una prueba de una modificación rama 
+
+git merge modificar-texto //así fucionamos la rama a la principal, se debe estar en la rama master para que funcione  
+para 
+
+
+git log --oneline --all //muestra todos los commits y ramas
+ git log --oneline --all --graph //muestra los commits con su linea de ramas
+
+
+//volver a un commit 
+git reset --hard HEAD~3  # Retrocede 3 commits
+
+
+//recuperar algún commit 
+git reset --hard ######
+
+
+//así encontramos el historial por si se pierde el reflog 
+git reflog 
+
+si lo volvemos con checkout  queda como en stand by , y si creamos y nos metemos a una nueva rama, ese commit que recuperamos se mete a la rama
+
+
+git clone link //PARA TRAER ALGO DE POR ALLÁ
  
