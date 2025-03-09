@@ -1,0 +1,32 @@
+HOLA MUNDO FANTÁSTICO DE MI VIDA, CÓMO ESTÁN???
+
+git config --global core.editor "idea --wait"
+
+git config --global core.editor "code --wait"
+
+git diff //!compara versiones
+
+git log //!muestra información de los commits
+
+//nuevo
+
+git log --oneline //muestra información de los commit pero resumido 
+
+git config --global core.abbrev 6  //con este se muestra el id solo con 6 digitos
+
+$ git diff --word-diff e138bd9 cadfe3a //hace que se muestre qué fue loq ue cambió explícitamente 
+
+
+//nuevo
+//nuevo commit
+
+
+git commit --amend //esto es para modificar solo el commit
+
+git reset --soft 23ye5w //nos ubica en el commit que queremos, pero borra los commits que estaban por encima
+
+git mv archivo_viejo.txt archivo_nuevo.txt  //cambiar el nombre del archivo viejo
+
+git commit -m "Renombrado archivo_viejo.txt a archivo_nuevo.txt" -a confirmar el cambio
+
+ 
