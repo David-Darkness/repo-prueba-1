@@ -67,3 +67,8 @@ si lo volvemos con checkout  queda como en stand by , y si creamos y nos metemos
 
 git clone link //PARA TRAER ALGO DE POR ALLÁ
  
+
+git pull //actualizamos los datos de la nube
+
+git push origin master //se sube
+
