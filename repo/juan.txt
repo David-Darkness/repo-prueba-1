@@ -72,3 +72,5 @@ git pull //actualizamos los datos de la nube
 
 git push origin master //se sube
 
+
+git remote -v
