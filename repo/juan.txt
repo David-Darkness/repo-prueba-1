@@ -14,7 +14,7 @@ git log --oneline //muestra información de los commit pero resumido
 
 git config --global core.abbrev 6  //con este se muestra el id solo con 6 digitos
 
-$ git diff --word-diff e138bd9 cadfe3a //hace que se muestre qué fue loq ue cambió explícitamente 
+$ git diff --word-diff e138bd9 cadfe3a //hace que se muestre qué fue lo que cambió explícitamente 
 
 
 //nuevo
